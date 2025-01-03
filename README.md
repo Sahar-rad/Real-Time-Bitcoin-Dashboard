@@ -26,3 +26,9 @@ Real-time performance tracking.
 ## Preview
 ![Dashboard Preview](images/dashboard.png)
 
+### Power BI File
+The `DirectLakeSemanticModel.pbix` file contains the Power BI dashboard for real-time Bitcoin price analytics. To open this file:
+1. Download the `.pbix` file to your local machine.
+2. Open it using Microsoft Power BI Desktop.
+
+
