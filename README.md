@@ -21,3 +21,4 @@ Interactive dashboard providing insights such as:
 Current, minimum, maximum, and average Bitcoin rates.
 Weekly and daily trend analysis of Bitcoin prices.
 Real-time performance tracking.
+![Bitcoin Dashboard](images/dashboard.png)
