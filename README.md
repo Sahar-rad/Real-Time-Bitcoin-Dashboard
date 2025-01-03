@@ -11,3 +11,13 @@ The dashboard provides:
 2. Visual analytics of minimum, maximum, average, and current rates.
 3. Weekly and daily breakdowns of Bitcoin price trends.
 
+## Features
+Real-time retrieval and processing of Bitcoin price data from an API.
+Integration with Microsoft Fabric for efficient data ingestion and processing.
+Real-time analytics and visualization using Event Hub and Power BI.
+Automatic scheduling of data retrieval due to API request limitations.
+Managed fields in Power BI for seamless integration without manual measure creation.
+Interactive dashboard providing insights such as:
+Current, minimum, maximum, and average Bitcoin rates.
+Weekly and daily trend analysis of Bitcoin prices.
+Real-time performance tracking.
