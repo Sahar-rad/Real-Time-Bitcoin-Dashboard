@@ -23,4 +23,6 @@ Weekly and daily trend analysis of Bitcoin prices.
 Real-time performance tracking.
 
 
-![Bitcoin Dashboard](images/dashboard.png)
+## Preview
+![Dashboard Preview](images/dashboard.png)
+
