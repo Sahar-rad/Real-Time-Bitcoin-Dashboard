@@ -53,7 +53,7 @@ The real-time data is streamed using Azure Event Hub and processed through Event
 #### **3. Destination Data (Lakehouse)**
 The processed data is stored in the Lakehouse. This includes aggregated metrics like `Minimum Rate`, `Maximum Rate`, and `Average Rate`, along with calculated fields such as `Day`, `Month`, and `Week`.
 
-![Destination Data Preview](images/destination_data_preview.png)
+![Destination Data Preview](images/destination_data.png)
 
 
 
