@@ -31,4 +31,29 @@ The `DirectLakeSemanticModel.pbix` file contains the Power BI dashboard for real
 1. Download the `.pbix` file to your local machine.
 2. Open it using Microsoft Power BI Desktop.
 
+### Data Flow
+The following sections illustrate the data flow and transformations in the project.
+
+---
+
+#### **1. Source Data (API Data Preview)**
+The data is retrieved from an external API providing real-time Bitcoin price information.
+
+![Source Data Preview](images/source_data_preview.png)
+
+---
+
+#### **2. Event Stream**
+The real-time data is streamed using Azure Event Hub and processed through Event Stream for further transformations.
+
+![Event Stream Flow](images/event_stream_flow.png)
+
+---
+
+#### **3. Destination Data (Lakehouse)**
+The processed data is stored in the Lakehouse. This includes aggregated metrics like `Minimum Rate`, `Maximum Rate`, and `Average Rate`, along with calculated fields such as `Day`, `Month`, and `Week`.
+
+![Destination Data Preview](images/destination_data_preview.png)
+
+
 
