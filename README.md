@@ -6,33 +6,48 @@
 ![GitHub license](https://img.shields.io/github/license/Sahar-rad/Real-Time-Bitcoin-Dashboard)
 
 
-### Overview
+##Real-Time Bitcoin Dashboard
 
-The Real-Time Bitcoin Dashboard addresses the need for real-time cryptocurrency price tracking and analysis. It leverages Microsoft Fabric and Power BI to create a seamless pipeline that retrieves, processes, and visualizes Bitcoin price data. 
+###Overview
+The Real-Time Bitcoin Dashboard addresses the need for real-time cryptocurrency price tracking and analysis. By leveraging Microsoft Fabric and Power BI, it creates a seamless pipeline that retrieves, processes, and visualizes Bitcoin price data in real time.
 
-This project is designed for cryptocurrency analysts, traders, and enthusiasts who need:
-- Instant access to live Bitcoin price data.
-- Comprehensive analytics to understand price trends.
-- A reliable solution for decision-making based on real-time data insights.
+##This project is designed for:
 
-
-## Power BI Visualizations
+Cryptocurrency analysts looking for actionable insights.
+Traders needing real-time updates for decision-making.
+Enthusiasts eager to understand Bitcoin price trends.
+##Key Benefits:
+Instant access to live Bitcoin price data.
+Comprehensive analytics for trend evaluation.
+Reliable decision-making through real-time insights.
+Power BI Visualizations
 The dashboard provides:
-1. Real-time tracking of Bitcoin prices.
-2. Visual analytics of minimum, maximum, average, and current rates.
-3. Weekly and daily breakdowns of Bitcoin price trends.
 
-### Technology Stack
+##Real-time tracking of Bitcoin prices.
+Visual analytics for:
+Minimum, maximum, average, and current rates.
+Weekly and daily breakdowns of Bitcoin price trends.
+##Technology Stack
+This project leverages the following technologies:
 
-The project leverages the following technologies:
+Microsoft Fabric: For seamless integration of data ingestion, processing, and storage.
+Azure Event Hub: To manage real-time data streaming efficiently.
+Python: For scripting and API integration.
+Power BI: To create interactive dashboards for data visualization.
+Event Stream: To process and transfer real-time data to the Lakehouse.
+Lakehouse: For centralized storage and analysis of processed data.
+Data Activator: For automated alerts and real-time monitoring.
+###Features
+Real-time Bitcoin price retrieval using a public API.
+Integration with Microsoft Fabric for efficient data processing and storage.
+Streaming data with Azure Event Hub for real-time analytics.
+Interactive Power BI dashboard to visualize price trends.
+Automated Alerts with Data Activator:
+Notifies when:
+Minimum price drops below $90,000.
+Maximum price exceeds $98,000.
+Sends alerts via email for actionable insights.
 
-- **Microsoft Fabric**: For seamless integration of data ingestion, processing, and storage.
-- **Azure Event Hub**: To manage real-time data streaming efficiently.
-- **Python**: For scripting and API integration.
-- **Power BI**: To create interactive dashboards for data visualization.
-- **Event Stream**: To process and transfer real-time data to the Lakehouse.
-- **Lakehouse**: For centralized storage and analysis of processed data.
-   
 
 
 ## Preview
@@ -66,6 +81,39 @@ The real-time data is streamed using Azure Event Hub and processed through Event
 The processed data is stored in the Lakehouse. This includes aggregated metrics like `Minimum Rate`, `Maximum Rate`, and `Average Rate`, along with calculated fields such as `Day`, `Month`, and `Week`.
 
 ![Destination Data Preview](images/destination_data.png)
+
+###Future Plans
+Enhance real-time analytics with KQL (Kusto Query Language).
+Integrate Eventhouse for advanced real-time intelligence.
+Improve dashboard interactivity and scalability.
+
+
+####Challenges and Learnings
+API Request Limits: Scheduled data retrieval at 20-minute intervals to comply with API limitations.
+DirectLake Limitations: Used Managed Fields in Power BI to avoid limitations.
+Real-Time Alerts: Implemented Data Activator to automate notifications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
