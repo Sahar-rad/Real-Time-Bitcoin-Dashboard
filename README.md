@@ -6,10 +6,15 @@
 ![GitHub license](https://img.shields.io/github/license/Sahar-rad/Real-Time-Bitcoin-Dashboard)
 
 
-## Overview
-This project retrieves real-time Bitcoin price data from an API and processes it using a Microsoft Fabric notebook. The data is sent to an Event Hub for further real-time analytics and visualization. Using Event Stream, the data is transferred to a Lakehouse for storage and analysis. Instead of creating measures in Power BI, managed fields were utilized for seamless integration.
+### Overview
 
-Due to API request limitations, the notebook was scheduled to run every 20 minutes instead of every minute. The project faced several challenges, but they were resolved through continuous effort and troubleshooting.
+The Real-Time Bitcoin Dashboard addresses the need for real-time cryptocurrency price tracking and analysis. It leverages Microsoft Fabric and Power BI to create a seamless pipeline that retrieves, processes, and visualizes Bitcoin price data. 
+
+This project is designed for cryptocurrency analysts, traders, and enthusiasts who need:
+- Instant access to live Bitcoin price data.
+- Comprehensive analytics to understand price trends.
+- A reliable solution for decision-making based on real-time data insights.
+
 
 ## Power BI Visualizations
 The dashboard provides:
