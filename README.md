@@ -39,7 +39,7 @@ The following sections illustrate the data flow and transformations in the proje
 #### **1. Source Data (API Data Preview)**
 The data is retrieved from an external API providing real-time Bitcoin price information.
 
-![Source Data Preview](images/source_data_preview.png)
+![Source Data Preview](images/source_data.png)
 
 ---
 
