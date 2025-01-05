@@ -22,6 +22,25 @@ This project is designed for:
 
 ---
 
+### Power BI Service Export: DirectLakeSemanticModel.Report
+
+This repository includes the **DirectLakeSemanticModel.Report** folder, synchronized directly from Microsoft Fabric to GitHub. The folder contains JSON files and metadata representing the Power BI dashboard configuration.
+
+#### Contents of DirectLakeSemanticModel.Report
+- **definition.pbix**: Metadata describing the structure of the Power BI report.
+- **report.json**: Detailed JSON configuration of the report, including visuals, layouts, and data sources.
+- **StaticResources folder**: Additional assets supporting the dashboard.
+
+#### Purpose
+Including these files provides:
+1. **Configuration Review**: Analyze the report's structure and setup through JSON files.
+2. **Version Control**: Collaborate efficiently by tracking changes via GitHub.
+3. **Documentation**: Ensure transparency of the dashboard’s design and logic.
+
+By exporting directly from Microsoft Fabric to GitHub, this repository integrates the development and deployment of Power BI dashboards into a modern, collaborative workflow.
+
+---
+
 ## Power BI Visualizations
 
 The dashboard provides:
